@@ -16,7 +16,7 @@ export const getStaticProps = async ({ locale, params }) => {
 };
 
 const Page = React.memo(({ id }) => {
-    return <div>Page: {id}</div>
+    return <div>Welcome to Page: {id}</div>
 })
 
 export default Page
