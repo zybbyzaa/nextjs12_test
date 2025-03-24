@@ -15,6 +15,7 @@ const Home = ({ }) => {
         <p onClick={() => {
             router.push('/p/2')
         }}>page 2</p>
+        <p>bottom</p>
     </div>
 }
 
